@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+ char ch;
+ cout<<"what is your name?"<<endl;
+ cin>>ch;
+ cout<<ch;
+ return 0;
+ }
+ 
