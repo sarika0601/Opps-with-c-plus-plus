@@ -1,0 +1,18 @@
+#include<iostream>
+ namespace std1
+ {
+int x=4;
+ }
+ namespace std2
+ {
+ float x=5.5;
+ }
+
+int main()
+{
+std::cout<<"Hello! This is practical4 task 4"<<std::endl;
+std::cout<<"x(int)"<<std1::x<<std::endl;
+std::cout<<"x(float)"<<std2::x<<std::endl;
+return 0;
+}
+

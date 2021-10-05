@@ -1,0 +1,9 @@
+#include<iostream>
+//using namespace std;
+int main()
+{
+std::cout<<"hello"<<std::endl;
+std::cout<<"This is practical 4 task1"<<std::endl;
+return 0;
+}
+
