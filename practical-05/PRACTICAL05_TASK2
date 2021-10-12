@@ -1,0 +1,21 @@
+#include<iostream>
+ using namespace std;
+ 
+ int main(){
+ int a=20;
+ char ch='d';
+ short b=3;
+ long int c=3456;
+ float d=45.5;
+ double e=34678899900;
+ wchar_t tst=567;
+  cout<<"Size  of operators :"<<endl;
+ cout<<"Char :"<<sizeof(char)<<sizeof(ch)<<endl;
+ cout<<"Short :"<<sizeof(short)<<sizeof(b)<<endl;
+ cout<<"Int :"<<sizeof(int)<<sizeof(a)<<endl;
+ cout<<"long :"<<sizeof(long int)<<sizeof(c)<<endl;
+ cout<<"Float :"<<sizeof(float)<<sizeof(d)<<endl;
+ cout<<"Double :"<<sizeof(double)<<sizeof(e)<<endl;
+ cout<<"Wide Character :"<<sizeof(wchar_t)<<sizeof(tst)<<endl;
+ return 0;
+ }

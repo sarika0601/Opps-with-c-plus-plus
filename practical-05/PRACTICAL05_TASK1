@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int age=45;
+  int salary =80000;
+  float area= 55.5;
+  double distance =45E12;
+  char test1 ='A';
+  wchar_t test2=4;
+  bool cond=false;
+  cout<<"int:    "<<age<<endl;
+  cout<<"int:    "<<salary<<endl;
+  cout<<"float:   "<<area<<endl;
+  cout<<"Double:  "<<distance<<endl;
+  cout<<"char:    "<<test1<<endl;
+  cout<<"Wchar:   "<<test2<<endl;
+  cout<<"Booleab:  "<<cond<<endl;
+  return 0;
+  }
