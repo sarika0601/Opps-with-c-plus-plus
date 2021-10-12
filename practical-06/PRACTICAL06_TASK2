@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+string str;
+cout<<"enter the string:";
+getline(cin,str);
+string::reverse_iterator i=str.rbegin();
+if(equal(str.begin(),str.end(),i))
+  cout<<"yes it is palindrome"<<endl;
+  else
+  cout<<"No it is not a palindrome"<<endl;
+  }
+
